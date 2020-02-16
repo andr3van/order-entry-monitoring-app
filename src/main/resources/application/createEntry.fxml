@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?><?import javafx.scene.control.TextField?><?import javafx.scene.layout.AnchorPane?><?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="273.0" prefWidth="417.0" xmlns="http://javafx.com/javafx/8.0.171"
+    xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateEntryController">
+    <children>
+        <TextField fx:id="entryNameTextField" layoutX="100.0" layoutY="101.0" prefHeight="31.0" prefWidth="218.0" />
+        <Text layoutX="100.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entry Name:" />
+        <Button fx:id="createButton" layoutX="133.0" layoutY="168.0" mnemonicParsing="false" onAction="#onCreate"
+            text="Create" />
+        <Button fx:id="cancelButton" layoutX="221.0" layoutY="168.0" mnemonicParsing="false" onAction="#onCancel"
+            text="Cancel" />
+    </children>
+</AnchorPane>

@@ -1,1 +1,2 @@
-OrderEntryMonitoringApp
+# Order Entry Monitoring App
+A simple order entry monitoring app that demonstrates the use of JavaFX TreeView for creating order entry and inserting records into each entry with data stored into an embedded database using H2 Database.
